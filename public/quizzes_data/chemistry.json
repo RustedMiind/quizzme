@@ -1,0 +1,57 @@
+[
+  {
+    "question": "If sulphuric acid solution has pH = 2 then its molarity is______.",
+    "correct": 0,
+    "answers": ["1/100", "1/50", "1/2", "1/200"]
+  },
+  {
+    "question": "The molarity of a solution of Na2CO3 having 31.8g/500 ml of solution is",
+    "correct": 0,
+    "answers": ["0.6M", "6M", "60M", "0.06M"]
+  },
+  {
+    "question": "Phenol on hydrogenation with Ni at 433K gives:",
+    "correct": 2,
+    "answers": ["Benzene", "Cyclohexane", "Cyclohexanol", "n-hexanol"]
+  },
+  {
+    "question": "The purest form of iron is",
+    "correct": 0,
+    "answers": ["wrought iron", "steel", "nickel steel", "pig iron"]
+  },
+  {
+    "question": "Hydrogen bomb is based on the principle of  ",
+    "correct": 1,
+    "answers": [
+      "nuclear fission",
+      "nuclear fusion",
+      "artificial radioactivity",
+      "natural radioactivity"
+    ]
+  },
+  {
+    "question": "Which of the following is a non metal that remains liquid at room temperature  ?",
+    "correct": 2,
+    "answers": ["Chlorine", "Phosphorous", "Bromine", "Helium"]
+  },
+  {
+    "question": "Brass gets discoloured in air because of the presence of which of the following gases in air  ?",
+    "correct": 0,
+    "answers": ["Hydrogen sulphide", "Oxygen", "Nitrogen", "Carbon dioxide"]
+  },
+  {
+    "question": "Among the given nutrients, milk is a poor source of",
+    "correct": 2,
+    "answers": ["Calcium", "Protein", "Vitamin C", "Carbohydrates"]
+  },
+  {
+    "question": "Name the Scientist who stated that matter can be converted into energy",
+    "correct": 3,
+    "answers": ["Boyle", "Lavoisier", "Avogadro", "Einstein"]
+  },
+  {
+    "question": "Among the following the maximum covalent character is shown by the compound",
+    "correct": 3,
+    "answers": ["MgCl2", "FeCl2", "SnCl2", "AlCl3"]
+  }
+]

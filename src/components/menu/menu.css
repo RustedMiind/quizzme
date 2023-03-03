@@ -1,0 +1,64 @@
+.App .menu {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  min-height: calc(100vh - 5rem);
+  align-items: center;
+  justify-content: center;
+}
+.App .menu button.start {
+  position: relative;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border: 0.1rem solid black;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: transparent;
+}
+.App .menu button.start h2 {
+  transition: color 200ms ease-in;
+}
+.App .menu button.start::before {
+  content: "";
+  transition: 300ms ease-in-out;
+  position: absolute;
+  width: 0;
+  background-color: gray;
+  height: 100%;
+  z-index: -1;
+  border-radius: 100%;
+}
+.App .menu button.start:hover::before {
+  width: 100%;
+  border-radius: 0;
+}
+.App .menu button.start:hover h2 {
+  color: white;
+  transition: color 200ms ease-in 150ms;
+}
+
+.App .menu .card {
+  display: block;
+  color: unset;
+  text-decoration: unset;
+  margin: 1rem;
+  padding: 0.8rem;
+  width: 20rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.App .menu .card .image-container {
+  border-radius: 0.4rem;
+  width: 18.4rem;
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+}

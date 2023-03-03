@@ -1,24 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Dispatch } from "react";
+import { useContext, useState, createContext } from "react";
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import NavBar from "./components/navBar/NavBar";
+import Menu from "./components/menu/Menu";
+import Quiz from "./components/quiz/Quiz";
+import Submit from "./components/sibmit/Submit";
+
+export const FileContext = createContext<
+  React.Dispatch<React.SetStateAction<string>>
+>(() => {});
+type quizType = {
+  question: string;
+  correct: number;
+  selected: number;
+  answers: string[];
+}[];
 
 function App() {
+  const [quiz, setQuiz] = useState<quizType>([
+    { question: "", correct: 0, selected: -1, answers: [""] },
+  ]);
+  const [file, setFile] = useState("quiz.json");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <div className="View">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <FileContext.Provider value={setFile}>
+                <Menu />
+              </FileContext.Provider>
+            }
+          />
+
+          <Route path="quiz">
+            <Route
+              path=""
+              element={<Quiz quiz={quiz} file={file} setQuiz={setQuiz} />}
+            />
+            <Route
+              path="submit"
+              element={<Submit quiz={quiz} file={file} setQuiz={setQuiz} />}
+            />
+          </Route>
+        </Routes>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+nav.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  /* background-color: #aaa; */
+}
+nav.navbar ul.left-side,
+nav.navbar ul.right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+nav.navbar li {
+  padding: 1.6rem;
+}
+nav.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+@media (max-width: 849px) {
+  nav.navbar {
+    padding: 0;
+  }
+}

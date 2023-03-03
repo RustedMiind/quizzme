@@ -1,0 +1,27 @@
+[
+  {
+    "question": "if 1 + 2 = x , then the value of x =",
+    "correct": 1,
+    "answers": ["1", "3", "4", "8"]
+  },
+  {
+    "question": "An algebraic expression that contains only one term is called:",
+    "correct": 0,
+    "answers": ["Monomial", "Binomial", "Trinomial", "None of the above"]
+  },
+  {
+    "question": "5x+6y is a:",
+    "correct": 1,
+    "answers": ["Monomial", "Binomial", "Trinomial", "None of the above"]
+  },
+  {
+    "question": " In which of the following, the two expressions are like terms?",
+    "correct": 1,
+    "answers": ["7x and 7y", "7x and 9x", "7x and 7x^2", "7x and 7xy"]
+  },
+  {
+    "question": "The side of a cube is 2a. Find the volume of the cube.",
+    "correct": 2,
+    "answers": ["4a^2", "2a", "8a^3", "8"]
+  }
+]

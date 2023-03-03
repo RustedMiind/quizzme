@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Does ______ know that _____ was absent?",
+    "correct": 1,
+    "answers": ["she,me", "she,I", "her,me", "her.I"]
+  },
+  {
+    "question": "Please tell_____ _____have obtained a degree in Chemistry.",
+    "correct": 2,
+    "answers": ["He,I", "Him,Me", "Him,I", "He,Me"]
+  },
+  {
+    "question": "I remember that____ bought the fruits from ____.",
+    "correct": 3,
+    "answers": ["They,We", "Them,Us", "Them,We", "They,Us"]
+  },
+  {
+    "question": "Please don't tell ____ about ____.",
+    "correct": 3,
+    "answers": ["She,I", "She,Me", "Her,I", "Her,Me"]
+  },
+  {
+    "question": "____ can swim because ____ has webbed feet.",
+    "correct": 0,
+    "answers": ["It,It", "Its,It", "It,Them", "Its,Them"]
+  },
+  {
+    "question": "I meet Jaya yesterday.____ invited ____ to her house.",
+    "correct": 0,
+    "answers": ["she,Me", "She,I", "Her,Me", "Her,I"]
+  },
+  {
+    "question": "Shreya has cat;____likes to play with ___.",
+    "correct": 1,
+    "answers": ["She,Him", "She,It", "Her,Him", "Her,It"]
+  },
+  {
+    "question": "When the dog chased Jayant,____ ran as fast as ____ could.",
+    "correct": 0,
+    "answers": ["He,He", "He,Him", "Him,He", "Him,Him"]
+  },
+  {
+    "question": "My uncle works in a factory. ____ says ____ is a noisy place.",
+    "correct": 1,
+    "answers": ["He,Its", "He,It", "It,Its", "It,It"]
+  }
+]

@@ -1,0 +1,52 @@
+.submit-window {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 2rem;
+}
+.submit-window h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.submit-window .choices {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.submit-window .choices .choice {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 0.6rem 0;
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.submit-window .choices .choice.selected {
+  outline: 0.3rem solid red;
+}
+.submit-window .choices .choice.true {
+  outline: 0.3rem solid rgb(0, 255, 0);
+}
+.submit-window .choices .choice.not-choosen {
+  border: 0.3rem solid red;
+}
+.submit-window .manage {
+  margin-top: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.submit-window .manage button {
+  padding: 0.6rem 1rem;
+  font-size: 1.4rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.submit-window .info h4 {
+  font-size: 1.4rem;
+}

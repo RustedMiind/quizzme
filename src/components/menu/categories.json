@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Maths",
+    "id": 0,
+    "file": "maths.json",
+    "image": "https://img.freepik.com/premium-vector/realistic-math-chalkboard-background_23-2148154055.jpg"
+  },
+  {
+    "name": "Physics",
+    "id": 1,
+    "file": "physics.json",
+    "image": "https://wallpaperaccess.com/full/1133458.jpg"
+  },
+  {
+    "name": "Chemistry",
+    "id": 2,
+    "file": "chemistry.json",
+    "image": "https://wallpaperaccess.com/full/6331273.jpg"
+  },
+  {
+    "name": "English",
+    "id": 3,
+    "file": "english.json",
+    "image": "https://t3.ftcdn.net/jpg/03/70/42/66/360_F_370426690_Pejt9KxjWTHPklsKwripaxr0iA17zupF.jpg"
+  }
+]
